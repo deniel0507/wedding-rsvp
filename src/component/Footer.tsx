@@ -5,9 +5,7 @@ export interface FooterProps{
 
 }
 
-export const Footer: FC<FooterProps> = ({
-
-}) => {
+export const Footer: FC<FooterProps> = () => {
     return(
         <footer className="bg-gray-800 text-white text-center p-4">
             {/* <p>© 2026 My Website. All rights reserved.</p> */}
