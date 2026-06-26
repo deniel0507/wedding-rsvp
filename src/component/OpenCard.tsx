@@ -7,7 +7,7 @@ export interface props{
 
 }
 
-export const OpenCard:FC<Props> = ({}) => {
+export const OpenCard:FC<Props> = () => {
     return(
         <div>
             <div className="gap-4">
