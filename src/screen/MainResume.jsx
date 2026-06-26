@@ -1,6 +1,6 @@
 import React from "react";
 import { MainLayout } from "../component/MainLayout.tsx";
-import {OpenCard} from "../component/OpenCard.tsx"
+// import {OpenCard} from "../component/OpenCard.tsx"
 
 function MainResume(){
     return(

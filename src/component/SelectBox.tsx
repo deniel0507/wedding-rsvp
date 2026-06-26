@@ -4,7 +4,7 @@ export interface Props{
 
 }
 
-export const SelectBox:FC<Props> = ({}) => {
+export const SelectBox:FC<Props> = () => {
     return(
         <div className="w-[80%] flex gap-4">
             <p>How many pax? </p>
