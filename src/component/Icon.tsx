@@ -21,9 +21,8 @@ export const Icon: FC<IconProps> = ({ icon }) => {
         src={iconRegistry[icon]} 
         alt={icon} 
         style={{
-          height: 24, 
-          width: 24, 
-          filter: 'brightness(0) invert(1)'
+          height: 'auto', 
+          width: 15, 
           }}/>
     </div>
   );

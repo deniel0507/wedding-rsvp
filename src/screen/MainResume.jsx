@@ -1,10 +1,15 @@
 import React from "react";
 import { MainLayout } from "../component/MainLayout.tsx";
+import {OpenCard} from "../component/OpenCard.tsx"
 
 function MainResume(){
     return(
         <MainLayout>
-            <p></p>
+            <section id="" className="">
+                {/* <div className="">
+                    <OpenCard />
+                </div> */}
+            </section>
         </MainLayout>
     );
 }
